@@ -3,13 +3,13 @@ package pageObjects;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class MainGooglePage {
+public class GooglePageObject {
 
     private WebDriver driver;
 
     private By searchTextBox = By.id("gbqfq");
 
-    public MainGooglePage(WebDriver driver){
+    public GooglePageObject(WebDriver driver){
         this.driver = driver;
     }
 

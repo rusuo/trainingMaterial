@@ -5,26 +5,26 @@ import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import pageObjects.MainGooglePage;
+import pageObjects.GooglePageObject;
 
 import static junit.framework.Assert.assertTrue;
 
-public class TestSelenium2Example {
+public class TestTrainingExample {
 
     WebDriver driver;
-    MainGooglePage mainGooglePage;
+    GooglePageObject googlePageObject;
 
     @Before
     public void setUp(){
         driver = new FirefoxDriver();
         driver.get("http://www.google.com");
-        mainGooglePage = new MainGooglePage(driver);
+        googlePageObject = new GooglePageObject(driver);
     }
 
     @Test
     public void verifySearch(){
-        assertTrue(mainGooglePage.isSearchTextBoxVisible());
-        mainGooglePage.submitText("london");
+        assertTrue(googlePageObject.isSearchTextBoxVisible());
+        googlePageObject.submitText("london");
     }
 
     @After

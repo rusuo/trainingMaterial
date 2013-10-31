@@ -12,6 +12,7 @@
     <file path="/MainGooglePage.java" changelist="e87772c8-7dd8-4f43-91f8-7ea82b3cf38d" time="1381241911466" ignored="false" />
     <file path="/Selenium2Example.java" changelist="e87772c8-7dd8-4f43-91f8-7ea82b3cf38d" time="1381243273669" ignored="false" />
     <file path="/pom.xml" changelist="e87772c8-7dd8-4f43-91f8-7ea82b3cf38d" time="1383234204553" ignored="false" />
+    <file path="/TestTrainingExample.java" changelist="e87772c8-7dd8-4f43-91f8-7ea82b3cf38d" time="1383236017971" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,30 +73,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="40" selection-start="1526" selection-end="1526" vertical-scroll-proportion="0.4848485">
+            <state line="44" column="11" selection-start="1526" selection-end="1526" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestSelenium2Example.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/test/TestSelenium2Example.java">
+      <file leaf-file-name="TestTrainingExample.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/test/TestTrainingExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="11" selection-start="589" selection-end="589" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="25" column="35" selection-start="606" selection-end="622" vertical-scroll-proportion="0.38636363">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainGooglePage.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pageObjects/MainGooglePage.java">
+      <file leaf-file-name="GooglePageObject.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pageObjects/GooglePageObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="23" selection-start="307" selection-end="307" vertical-scroll-proportion="0.0">
+            <state line="15" column="23" selection-start="311" selection-end="311" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -116,6 +115,8 @@
         <option value="$PROJECT_DIR$/src/test/java/Selenium2Example.java" />
         <option value="$PROJECT_DIR$/src/test/java/test/Selenium2Example.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/pageObjects/GooglePageObject.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/TestTrainingExample.java" />
       </list>
     </option>
   </component>
@@ -137,7 +138,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
-    <option name="STATE" value="2" />
+    <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
@@ -152,8 +153,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -232,17 +233,16 @@
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
+    <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="dynamic.classpath" value="false" />
   </component>
-  <component name="RunManager" selected="JUnit.TestSelenium2Example">
-    <configuration default="false" name="TestSelenium2Example" type="Application" factoryName="Application" temporary="true">
+  <component name="RunManager" selected="JUnit.TestTrainingExample">
+    <configuration default="false" name="TestTrainingExample" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="test.TestSelenium2Example" />
+      <option name="MAIN_CLASS_NAME" value="test.TestTrainingExample" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -257,13 +257,13 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="TestSelenium2Example" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration default="false" name="TestTrainingExample" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="Project1" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.TestSelenium2Example" />
+      <option name="MAIN_CLASS_NAME" value="test.TestTrainingExample" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -294,19 +294,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -333,6 +320,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -372,13 +372,13 @@
       <method />
     </configuration>
     <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Application.TestSelenium2Example" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.TestSelenium2Example" />
+      <item index="0" class="java.lang.String" itemvalue="Application.TestTrainingExample" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TestTrainingExample" />
     </list>
     <recent_temporary>
       <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TestSelenium2Example" />
-        <item index="1" class="java.lang.String" itemvalue="Application.TestSelenium2Example" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TestTrainingExample" />
+        <item index="1" class="java.lang.String" itemvalue="Application.TestTrainingExample" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -410,19 +410,19 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30722153" sideWeight="0.6536585" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30660954" sideWeight="0.6536585" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34634146" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -493,21 +493,40 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="40" selection-start="1526" selection-end="1526" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/TestTrainingExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="11" selection-start="589" selection-end="589" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageObjects/GooglePageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="23" selection-start="307" selection-end="307" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/TestSelenium2Example.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/TestTrainingExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="35" selection-start="742" selection-end="742" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pageObjects/MainGooglePage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageObjects/GooglePageObject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="23" selection-start="307" selection-end="307" vertical-scroll-proportion="0.0">
           <folding />
@@ -521,16 +540,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/TestSelenium2Example.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/TestTrainingExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="40" selection-start="683" selection-end="683" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pageObjects/MainGooglePage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageObjects/GooglePageObject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="23" selection-start="307" selection-end="307" vertical-scroll-proportion="0.0">
           <folding />
@@ -544,25 +561,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pageObjects/MainGooglePage.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="23" selection-start="307" selection-end="307" vertical-scroll-proportion="0.0">
+        <state line="44" column="11" selection-start="1526" selection-end="1526" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/TestSelenium2Example.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageObjects/GooglePageObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="11" selection-start="589" selection-end="589" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="15" column="23" selection-start="311" selection-end="311" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/TestTrainingExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="40" selection-start="1526" selection-end="1526" vertical-scroll-proportion="0.4848485">
+        <state line="25" column="35" selection-start="606" selection-end="622" vertical-scroll-proportion="0.38636363">
           <folding />
         </state>
       </provider>
