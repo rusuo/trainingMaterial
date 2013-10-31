@@ -1,3 +1,5 @@
+package test;
+
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -7,7 +9,7 @@ import pageObjects.MainGooglePage;
 
 import static junit.framework.Assert.assertTrue;
 
-public class Selenium2Example  {
+public class TestSelenium2Example {
 
     WebDriver driver;
     MainGooglePage mainGooglePage;
