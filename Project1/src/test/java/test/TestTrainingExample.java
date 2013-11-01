@@ -9,6 +9,14 @@ import pageObjects.GooglePageObject;
 
 import static junit.framework.Assert.assertTrue;
 
+/**
+ * Steps performed in the test:
+ * 1. Go to google.com page
+ * 2. Verify that the search text box is visible.
+ * 3. Search for "london" text
+ * 4. Verify that the returned first result title contains "London"
+ */
+
 public class TestTrainingExample {
 
     WebDriver driver;
@@ -23,8 +31,10 @@ public class TestTrainingExample {
 
     @Test
     public void verifySearch(){
-        assertTrue(googlePageObject.isSearchTextBoxVisible());
-        googlePageObject.submitText("london");
+        if (googlePageObject.isSearchTextBoxVisible()){
+            googlePageObject.submitText("London");
+        }
+        assertTrue(googlePageObject.getTitleForFirstResult().contains("London"));
     }
 
     @After

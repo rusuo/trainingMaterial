@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="test.TestSelenium2Example" time="9.45" tests="1" errors="0" skipped="0" failures="0">
+<testsuite name="test.TestTrainingExample" time="8.96" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/lib"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="unknown"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/Users/oanarusu/Downloads/TestAutomationCourse/Project1"/>
+    <property name="user.dir" value="/Users/oanarusu/Documents/trainingMaterial/Project1"/>
     <property name="java.runtime.version" value="1.7.0_25-b15"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre/lib/endorsed"/>
@@ -61,5 +61,5 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="verifySearch" classname="test.TestSelenium2Example" time="9.45"/>
+  <testcase name="verifySearch" classname="test.TestTrainingExample" time="8.96"/>
 </testsuite>
